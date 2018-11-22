@@ -1,3 +1,16 @@
+## 0.13.2-dev(veui版本为1.0.0-alpha.18)
+
+### 💡 主要变更
+
+* [+] `Table`组件新增`ui=alt`主题
+
+### 🐞 问题修复
+
+* [^] 修改 `Input``组件在Form组件中使用，文本不居中，长度不是100%的样式错误问题
+* [^] 修改 `Pagination``组件分页下拉按钮样式
+* [^] 修改 `dropdown`组件增加split后对宽度影响，调整为只有使用split命令时，才宽度限制才生效
+* [^] 去除无效package文件`wicg-focus-ring@2.x`
+
 ## 0.13.0-dev(veui版本为1.0.0-alpha.18)
 
 ### 💡 主要变更
@@ -5,7 +18,7 @@
 * [+] `Alert`组件新增`ui=limit`样式（限制宽度为340px）
 * [+] `Button`组件新增`ui=dark`黑色按钮样式
 * [^] `Icon`组件中的`Minus-small`更名为`Minus`
-* [^] 更改`NumberInput`组件中的操作按钮
+* [^] 更改`NumberInput`组件样式
 * [+] `Pagination`组件新增`ui=info`展示条数信息样式
 * [+] `Uploader`组件去除`ui=horizontal`,默认为横向展示，新增`ui=vertical`纵向排列展示，新增`ui=bottom`提示文字在下方
 * [+] 新增`InfoImg`样式，显示数据在不同状态下的图片
